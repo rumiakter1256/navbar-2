@@ -37,14 +37,10 @@ header{
 }
 .nav-links li a{
     transition: all 0.3s ease 0s;
-    margin: 0 20px;
-}
-
-.nav-links li :hover{
-   
-    color: blueviolet;
     
 }
+
+
 button{
     padding: 9px 25px;
     background-color: crimson;
@@ -57,6 +53,16 @@ button{
 button:hover{
     background-color: blue;
 }
+
 li{
     display: inline-block;
+    margin: 0 20px;
+    padding: 10px 20px;
+    
+}
+li:hover {
+   
+    background-color: aqua;
+    
+    
 }
